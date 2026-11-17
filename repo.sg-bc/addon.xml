@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repo.sg-bc" name="SG-BC Add-ons" version="1.0.0" provider-name="SG-BC">
-    <extension point="xbmc.addon.repository" name="SG-BC Add-ons Repository">
-        <info compressed="false">https://raw.githubusercontent.com/SG-BC/repo.sg-bc/main/zips/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/SG-BC/repo.sg-bc/main/zips/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/SG-BC/repo.sg-bc/main/zips/</datadir>
-    </extension>
+<addon id="repo.sg-bc" name="SG-BC Add-ons" version="1.0.1" provider-name="SG-BC">
+	<extension point="xbmc.addon.repository" name="SG-BC Add-ons Repository">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/SG-BC/repo.sg-bc/main/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/SG-BC/repo.sg-bc/main/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/SG-BC/repo.sg-bc/main/zips/</datadir>
+		</dir>
+	</extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">SG-BC add-ons</summary>
         <description lang="en_GB">Repository for SG-BC Kodi add-ons.</description>
